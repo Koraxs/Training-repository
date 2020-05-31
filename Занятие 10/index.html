@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DZ10</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <input type="text" id="task">
+    <button id="addTaskBtn">Click</button>
+    <ul id="list">
+    </ul>
+
+    <script type="text/template" id="task-template">
+       <div style="background-color:yellow;" class="task">
+            {{task_name}} 
+            <button class="remove-btn">X</button>
+        </div> 
+    </script>
+</body>
+</html>
